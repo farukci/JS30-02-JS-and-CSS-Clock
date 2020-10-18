@@ -15,8 +15,9 @@
             <div class="hand min-hand"></div>
             <div class="hand second-hand"></div>
         </div>
+        
     </div>
-
+    <p id="image"><span>Photo by <a href="https://unsplash.com/@wilstewart3?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Wil Stewart</a> on <a href="https://unsplash.com/s/photos/time?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
 
     <style>
         html {
@@ -69,6 +70,14 @@
             transform: rotate(90deg);
             transition: all 0.05s;
             transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+        }
+
+        #image {
+            position: absolute;
+            bottom: 10px;
+            left: 46%;
+            font-size: 1.2rem;
+            color: white;
         }
     </style>
 
