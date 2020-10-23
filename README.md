@@ -1,0 +1,1 @@
+This project shows Wes Bos's JavaScript30 Coding Challange 2nd Project!
